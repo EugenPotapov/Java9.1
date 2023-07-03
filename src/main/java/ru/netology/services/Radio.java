@@ -1,8 +1,8 @@
 package ru.netology.services;
 
 public class Radio {
-    public int currentVolume;
-    public int numberRadioStation;
+    private int currentVolume;
+    private int numberRadioStation;
 
     public void setNumberRadioStation(int newNumberRadioStation) {
         if (newNumberRadioStation < 0) {
